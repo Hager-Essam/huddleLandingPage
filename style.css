@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+}
+
+body {
+    font-family: '';
+    color: white;
+    line-height: 1.5;
+    font-family: 'open-sans', Poppins;
+}
+
+.parent {
+    height: 100vh;
+    background-image: url("../images/bg-desktop.svg");
+    background-color: var(--violet);
+    display: flex;
+    position: relative;
+}
+p{
+    margin-top: 20px;
+    font-size: 12px;
+}
+button {
+    border-radius: 25px;
+    padding: 10px;
+    width: 100px;
+    color: var(--violet);
+    margin-top: 20px;
+}
+
+
+img {
+    margin-top: 60px;
+}
+
+.parent {
+    padding: 50px;
+}
+
+.info {
+    margin-top: 120px;
+    max-width: 375px;
+    margin-left: 35px;
+}
+.social{
+    position: absolute;
+    bottom: 40px;
+    right:40px;
+}
+.social i{
+    margin: 10px;
+    border: 1px white solid;
+    border-radius: 50%;
+    padding: 6px;
+}
